@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Wheel">
+        <attr name="ticks" format="integer" />
+        <attr name="numRotations" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="WheelRadio">
+        <attr name="smallTicks" format="integer" />
+        <attr name="bigTicks" format="integer" />
+        <attr name="valueIndicatorColor" format="color|reference" />
+        <attr name="bigIndicatorColor" format="color|reference" />
+        <attr name="smallIndicatorColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ValueSelector">
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+        <attr name="values" format="reference" />
+        <attr name="android:ellipsize" />
+        <attr name="android:marqueeRepeatLimit" />
+        <attr name="dividerSize" format="dimension" />
+        <attr name="sideItems" format="integer" />
+        <attr name="valueDifference" format="integer" />
+        <attr name="maxValue" format="integer" />
+        <attr name="minValue" format="integer" />
+    </declare-styleable>
+
+    <attr name="horizontalPickerStyle" format="reference" />
+
+</resources>

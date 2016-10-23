@@ -1,0 +1,249 @@
+{
+  "home_automation": [
+    {
+      "house_name": "Adhira_Dale",
+      "total": "9",
+      "update": "000001",
+      "masters": [
+        {
+          "mid": "m1",
+          "id": "1",
+          "name": "Master Bedroom",
+          "room_category": "4",
+          "room_type": "3",
+          "room_temp": "18",
+          "unit": "17",
+          "ambencie": "1",
+          "devices": [
+            {
+              "id": "1",
+              "sid": "m1s1",
+              "sname": "Dimmer",
+              "type": "2",
+              "status": "1",
+              "value": "70"
+            },
+            {
+              "id": "2",
+              "sid": "m1s2",
+              "sname": "Light 1",
+              "type": "1",
+              "status": "1",
+              "value": "0"
+            },
+            {
+              "id": "3",
+              "sid": "m1s3",
+              "sname": "Fan",
+              "type": "3",
+              "status": "1",
+              "value": "54"
+            },
+            {
+              "id": "4",
+              "sid": "m1s4",
+              "sname": "Plug 1",
+              "type": "5",
+              "status": "1",
+              "value": "54"
+            },
+            {
+              "id": "5",
+              "sid": "m1s5",
+              "sname": "Curtain 2",
+              "type": "4",
+              "status": "1",
+              "value": "70"
+            }
+          ],
+          "air-Condition": [
+            {
+              "id": "6",
+              "sid": "m1s6",
+              "sname": "Geepas Air Conditionar",
+              "type": "6",
+              "status": "1",
+              "temp": "18",
+              "swing": "1",
+              "fan_speed": "3"
+            },
+            {
+              "id": "7",
+              "sid": "m1s7",
+              "sname": "Phlips Air Conditionar",
+              "type": "6",
+              "status": "1",
+              "temp": "18",
+              "swing": "1",
+              "fan_speed": "3"
+            },
+            {
+              "id": "8",
+              "sid": "m1s8",
+              "sname": "Videocon Air Conditionar",
+              "type": "6",
+              "status": "1",
+              "temp": "18",
+              "swing": "1",
+              "fan_speed": "3"
+            }
+          ],
+          "speaker_system": [
+            {
+              "id": "9",
+              "sid": "m1s9",
+              "sname": "Sony Speaker System",
+              "type": "7",
+              "status": "1",
+              "volume": "18",
+              "connected_to": "TV"
+            },
+            {
+              "id": "10",
+              "sid": "m1s10",
+              "sname": "JBL Speaker System",
+              "type": "7",
+              "status": "1",
+              "volume": "18",
+              "connected_to": "Play Station"
+            }
+          ],
+          "ambience_light": [
+            {
+              "id": "11",
+              "sid": "m1s11",
+              "sname": "Phlips Ambience Light",
+              "type": "8",
+              "status": "1",
+              "color": "3fghd",
+              "brightness": "50"
+            },
+            {
+              "id": "12",
+              "sid": "m1s11",
+              "sname": "JBL Speaker System",
+              "type": "8",
+              "status": "1",
+              "color": "67uio",
+              "brightness": "50"
+            }
+          ],
+          "robot_cleaner": [
+            {
+              "id": "13",
+              "sid": "m1s13",
+              "sname": "JBL Cleaner",
+              "type": "9",
+              "status": "1",
+              "fan_speed": "3",
+              "brightness": "50"
+            },
+            {
+              "id": "14",
+              "sid": "m1s14",
+              "sname": "Phlips Room Cleaner",
+              "type": "9",
+              "status": "1",
+              "fan_speed": "3",
+              "brightness": "50"
+            }
+          ],
+          "monitores": [
+            {
+              "id": "15",
+              "sid": "m1s15",
+              "sname": "Sony Tv",
+              "type": "10",
+              "status": "1",
+              "model_no": "3FGj",
+              "company": "Samsung"
+            },
+            {
+              "id": "16",
+              "sid": "m1s16",
+              "sname": "Samsung Projector",
+              "type": "11",
+              "status": "1",
+              "model_no": "3KLM",
+              "company": "sony"
+            }
+          ],
+          "cctv": [
+            {
+              "id": "17",
+              "sid": "m1s17",
+              "sname": "Yeager Cam",
+              "type": "12",
+              "status": "1",
+              "model_no": "3FGj",
+              "company": "Yeager Tech",
+              "ip_link": "http://www.ttrix.com/apple/iphone/ipvision/ipvisionpubcameras.html",
+              "http_port": "80",
+              "rtsp_port": "554"
+            },
+            {
+              "id": "18",
+              "sid": "m1s18",
+              "sname": "Yeager Cam",
+              "type": "12",
+              "status": "1",
+              "model_no": "3FGj",
+              "company": "Yeager Tech",
+              "ip_link": "http://www.ttrix.com/apple/iphone/ipvision/ipvisionpubcameras.html",
+              "http_port": "80",
+              "rtsp_port": "554"
+            },
+            {
+              "id": "19",
+              "sid": "m1s19",
+              "sname": "Yeager Cam",
+              "type": "12",
+              "status": "1",
+              "model_no": "3FGj",
+              "company": "Yeager Tech",
+              "ip_link": "http://www.ttrix.com/apple/iphone/ipvision/ipvisionpubcameras.html",
+              "http_port": "80",
+              "rtsp_port": "554"
+            },
+            {
+              "id": "20",
+              "sid": "m1s20",
+              "sname": "Yeager Cam",
+              "type": "12",
+              "status": "1",
+              "model_no": "3FGj",
+              "company": "Yeager Tech",
+              "ip_link": "http://www.ttrix.com/apple/iphone/ipvision/ipvisionpubcameras.html",
+              "http_port": "80",
+              "rtsp_port": "554"
+            },
+            {
+              "id": "21",
+              "sid": "m1s21",
+              "sname": "Yeager Cam",
+              "type": "12",
+              "status": "1",
+              "model_no": "3FGj",
+              "company": "Yeager Tech",
+              "ip_link": "http://www.ttrix.com/apple/iphone/ipvision/ipvisionpubcameras.html",
+              "http_port": "80",
+              "rtsp_port": "554"
+            },
+            {
+              "id": "22",
+              "sid": "m1s22",
+              "sname": "Yeager Cam",
+              "type": "12",
+              "status": "1",
+              "model_no": "3FGj",
+              "company": "Yeager Tech",
+              "ip_link": "http://www.ttrix.com/apple/iphone/ipvision/ipvisionpubcameras.html",
+              "http_port": "80",
+              "rtsp_port": "554"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#eaebf0</color>
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+    <color name="grey1">#d4d7d8</color>
+    <color name="grey2">#455a64</color>
+    <color name="yellow">#ffc107</color>
+    <color name="white">#ffffff</color>
+    <color name="switch_status_on">#03bd00</color>
+    <color name="temp2color">#f02121</color>
+    <color name="psr1color">#7d0cae</color>
+    <color name="psr2color">#2bff06</color>
+    <color name="temp1color">#2317fc</color>
+    <color name="white_creme">#ecf0f1</color>
+    <color name="colorchooserborder">#dddddf</color>
+    <color name="black">#000000</color>
+    <color name="numberpickerbackground">#2196f3</color>
+    <color name="plusminusColor">#f5f5f5</color>
+    <color name="off_Color">#a90101</color>
+    <color name="on_Color">#0c9602</color>
+    <drawable name="switch_status_on">#ffffff</drawable>
+</resources>

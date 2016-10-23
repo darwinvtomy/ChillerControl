@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/chillersetup_card_margindown"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+ <android.support.v7.widget.CardView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     card_view:cardUseCompatPadding="true">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingBottom="@dimen/bottom_padding_card_chillerconfig"
+         android:orientation="vertical">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:padding="5dp">
+
+             <TextView
+                 android:id="@+id/textView4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Break Time"
+                 android:textColor="#000000"
+                 android:textSize="25sp"
+
+                 android:textStyle="bold" />
+
+             <TextView
+                 android:id="@+id/brktime"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentEnd="true"
+                 android:layout_alignParentRight="true"
+                 android:layout_centerVertical="true"
+                 android:textColor="#000000"
+                 android:textSize="25sp" />
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:padding="5dp">
+
+             <com.adhiratech.chillercontrol.Components.TimerComponent
+                 android:id="@+id/breaktime_timer"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+
+
+             <com.adhiratech.chillercontrol.Components.ValueSelector
+                 android:id="@+id/breaktime_valueSelector"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentEnd="true"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignParentTop="true"
+                 app:maxValue="120"
+                 app:minValue="30"
+                 app:valueDifference="30" />
+
+
+         </RelativeLayout>
+     </LinearLayout>
+ </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

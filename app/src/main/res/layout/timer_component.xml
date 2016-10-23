@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HRS"
+            android:gravity="center_vertical"
+            android:textStyle="normal|bold"
+            android:textSize="12sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:textColor="@color/title"
+            android:layout_marginTop="@dimen/timer_marging_up"
+            android:id="@+id/timer_hour"
+            android:gravity="center_vertical"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text=":"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:textColor="@color/title" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MIN"
+            android:gravity="center_horizontal"
+            android:textStyle="normal|bold"
+            android:textSize="12sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textSize="24sp"
+            android:layout_marginTop="@dimen/timer_marging_up"
+            android:textStyle="normal|bold"
+            android:textColor="@color/title"
+            android:id="@+id/timer_minute"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+
+            android:text=":"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:textColor="@color/title" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEC"
+            android:gravity="center_horizontal"
+            android:textStyle="normal|bold"
+            android:textSize="12sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="@dimen/timer_marging_up"
+            android:textColor="@color/title"
+            android:id="@+id/timer_second"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+
+</LinearLayout>
